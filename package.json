@@ -1,0 +1,21 @@
+{
+  "name": "kz-staging-cli",
+  "version": "1.0.0",
+  "description": "前端脚手架命令行工具",
+  "bin": {
+    "kz-staging-cli": "bin/main"
+  },
+  "keywords": ["前端脚手架命令行工具", "脚手架", "kz-staging-cli"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.5.1",
+    "chalk": "^4.1.2",
+    "commander": "^9.5.0",
+    "download-git-repo": "^3.0.2",
+    "figlet": "^1.6.0",
+    "fs-extra": "^11.1.1",
+    "inquirer": "^8.2.6",
+    "ora": "^5.4.1"
+  }
+}
