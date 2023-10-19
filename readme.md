@@ -93,7 +93,7 @@ program.parse(process.argv);
 
 然后我们进行运行 kz-staging-cli --help 看一下
 
-<img src="https://raw.githubusercontent.com/kongzhi0707/kz-staging-cli/master/1.png" /> <br />
+<img src="https://raw.githubusercontent.com/kongzhi0707/kz-staging-cli/master/images/1.png" /> <br />
 
 可以看到已经有 --version 的提示了。我们执行一下命令: kz-staging-cli --version 就会发现可以输出版本号了。
 
@@ -140,7 +140,7 @@ program.parse(process.argv);
 
 继续运行 kz-staging-cli --help 看一下效果如下：
 
-<img src="https://raw.githubusercontent.com/kongzhi0707/kz-staging-cli/master/2.png" /> <br />
+<img src="https://raw.githubusercontent.com/kongzhi0707/kz-staging-cli/master/images/2.png" /> <br />
 
 如上，我们就配置了脚手架的选项(options)了。
 
@@ -215,7 +215,7 @@ action 后面是一个回调函数，回调函数的第一个参数是上面的 
 
 现在我们运行命令: kz-staging-cli create test --force, 打印如下：
 
-<img src="https://raw.githubusercontent.com/kongzhi0707/kz-staging-cli/master/3.png" /> <br />
+<img src="https://raw.githubusercontent.com/kongzhi0707/kz-staging-cli/master/images/3.png" /> <br />
 
 #### 四）编写 create 模块
 
@@ -325,7 +325,7 @@ module.exports = function (projectName, options) {
 
 上面代码编写完成后，我们在项目目录外面新建一个空文件夹 test，然后我们再运行 kz-staging-cli create test 后，执行结果如下：
 
-<img src="https://raw.githubusercontent.com/kongzhi0707/kz-staging-cli/master/4.png" /> <br />
+<img src="https://raw.githubusercontent.com/kongzhi0707/kz-staging-cli/master/images/4.png" /> <br />
 
 可以看到命令行进行交互了。
 
@@ -499,7 +499,7 @@ module.exports = function (projectName, options) {
 
 现在，我们运行命令： kz-staging-cli create test
 
-<img src="https://raw.githubusercontent.com/kongzhi0707/kz-staging-cli/master/5.png" /> <br />
+<img src="https://raw.githubusercontent.com/kongzhi0707/kz-staging-cli/master/images/5.png" /> <br />
 
 #### 七）下载对应模版
 
@@ -616,7 +616,7 @@ module.exports = function (projectName, options) {
 
 现在，我们运行命令： kz-staging-cli create test 就可以把我们的代码拉取下来了。
 
-<img src="https://raw.githubusercontent.com/kongzhi0707/kz-staging-cli/master/6.png" /> <br />
+<img src="https://raw.githubusercontent.com/kongzhi0707/kz-staging-cli/master/images/6.png" /> <br />
 
 #### 八）模版提示
 
@@ -756,7 +756,7 @@ module.exports = function (projectName, options) {
 
 我们现在再执行命令: ts-staging-cli create test 效果如下：
 
-<img src="https://raw.githubusercontent.com/kongzhi0707/kz-staging-cli/master/7.png" /> <br />
+<img src="https://raw.githubusercontent.com/kongzhi0707/kz-staging-cli/master/images/7.png" /> <br />
 
 #### 九）发布脚手架
 
